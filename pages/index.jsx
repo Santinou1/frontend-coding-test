@@ -1,5 +1,10 @@
-function HomePage() {
-  return <p>Página de inicio</p>
+import React from "react";
+export default function index() {
+  return (
+    <>
+    <h1>
+      Hola
+    </h1>
+    </>
+  );
 }
-
-export default HomePage
